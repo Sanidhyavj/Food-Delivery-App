@@ -1,0 +1,30 @@
+.aboutus{
+    margin: auto auto;
+    margin-top: 100px;
+    font-size: max(2vw,10px);
+    text-align: center;
+    font-weight: lighter;
+    font-family:cursive;
+    background-color: rgb(253, 253, 249);
+    gap: 10px;
+}
+.aboutus hr{
+    display: flex;
+    width : 100%;
+    margin: 30px 0px;
+}
+.aboutus h4{
+    margin-bottom: 50px;
+}
+.para{
+    text-align: justify;
+    font-size: 27px;
+}
+.aboutus img{
+    width: 500px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.aboutus img:hover{
+    transform: scale(1.05) ;
+}
